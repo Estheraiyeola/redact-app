@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="input">
+        <div id="input-1">
+            <form action="get-input" method="post">
+                <p>Enter A Text</p>
+                <textarea name="text-to-be-worked-on" id="text-to-be-worked-on" cols="30" rows="10" placeholder="Enter the text"></textarea>
+            </form>
+        </div>
+        <div id="input-2">
+            <form action="get-input" method="post">
+                <p>Enter The Selected Word(s) To Be Edited</p>
+                <textarea name="text-to-be-asterisked" id="text-to-be-asterisked" cols="30" rows="10" placeholder="Enter the text to be asterisked"></textarea>
+            </form>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="button" type="button">Redact</button>
+    </div>
+    <div id="output">
+        <form action="get-input" method="get">
+            <p>Wait For Your Edited Text</p>
+            <textarea name="text-generated" id="text-generated" cols="30" rows="10" placeholder="...."></textarea>
+        </form>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

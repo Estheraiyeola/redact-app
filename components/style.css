@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 100px 40px;
+    margin: 10px 500px;
+    width: 800px;
+    background: linear-gradient(180deg, rgb(81, 149, 237), rgb(255, 255, 255), rgb(124, 186, 186));
+}
+body > img{
+    width: 200px;
+    height: 150px;
+}
+#input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 200px;
+}
+textarea{
+    height: 400px;
+    width: 400px;
+    background: linear-gradient(180deg, rgb(81, 149, 237), rgb(255, 255, 255), rgb(124, 186, 186));
+
+}
+#buttons, #output{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+button{
+    width: 300px;
+    font-size: 50px;
+    background: none;
+    border: 0px;
+    border-radius: 10px;
+}
+button:hover{
+    color: white;
+    background: black;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+@media screen and (max-width: 390px){
+    #input{
+        display: block;
+        align-items:first baseline;
+        justify-content: center;
+        padding-bottom: 50px;
+        gap: 200px;
+    }
+    body{
+        font-family: 'Poppins', sans-serif;
+        padding: 10px 40px;
+        margin: 10px 10px;
+        width: 390px;
+        background: linear-gradient(180deg, rgb(81, 149, 237), rgb(255, 255, 255), rgb(124, 186, 186));
+    }
+    p{
+        font-size: 20px;
+        text-align:justify;
+        color: black;
+    }
+    #buttons, #output{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    button:hover{
+        color: white;
+        background: black;
+    }
+    textarea{
+        height: 300px;
+        width: 300px;
+        background: linear-gradient(180deg, rgb(81, 149, 237), rgb(255, 255, 255), rgb(124, 186, 186));
+    
+    }
+}
